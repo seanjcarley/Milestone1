@@ -1,24 +1,104 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
 
 /*----------------------------------------------------------------------------*/
+/* Colours */
+/*----------------------------------------------------------------------------*/
+
+.menu-item-color-home {
+    background-color: #abcdef;
+}
+
+.menu-item-color-samples {
+    background-color: #012345;
+}
+
+.menu-item-color-contact {
+    background-color: #6789ab;
+}
+
+/*----------------------------------------------------------------------------*/
 /* Header */
 /*----------------------------------------------------------------------------*/
 
+header {
+    margin: 0;
+    background-color: #edf015;
+}
+
 .logo {
     background-color: #ababab;
+}
+
+.list-inline-item:not(:last-child) {
+    margin: 0;
+}
+
+.menucontainer {
+    font-size: 0;
+    margin: 0;
+}
+
+.menuitem {
+    height: 120px;
+    text-align: center;
+    padding: 0;
+}
+
+.menuitem a {
+    width:100%;
+    text-decoration: none;
+    color: #000;
+    height: 120px;
+}
+
+.menuitem a i {
+    padding-top: 10px;
+    display: block;
+    color: #000;
+    font-size: 30px
+}
+
+.menuitem span {
+    display: block;
+    width: 100%;
+    padding-top: 10px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 25;
+    font-weight: 300;
+    letter-spacing: 5px;
 }
 
 .name {
     font-family: "Exo", sans-serif;
 }
 
+#nav {
+    margin: 0;
+}
+
+#nav li {
+    font-size: 20px;
+    padding: 0;
+}
+
 /*----------------------------------------------------------------------------*/
 /* Section */
 /*----------------------------------------------------------------------------*/
 
-
+section {
+    margin: 0;
+}
 
 /*----------------------------------------------------------------------------*/
 /* Footer */
 /*----------------------------------------------------------------------------*/
 
+footer {
+    margin: 0;
+    background-color: #dfa015;
+}
+
+/*----------------------------------------------------------------------------*/
+/* Media Queries */
+/*----------------------------------------------------------------------------*/
