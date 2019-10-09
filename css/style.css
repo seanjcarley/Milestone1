@@ -28,7 +28,7 @@ header {
     background-color: #fefe33;
 }
 
-.title {
+.page-header {
     
 }
 
@@ -36,12 +36,14 @@ header {
     font-family: "Exo", sans-serif;
     font-weight: 400;
     font-size: 50px;
+    margin-left: 25px;
 }
 
-.desc {
+.tag-line {
     font-family: "Exo", sans-serif;
     font-weight: 300;
     font-size: 30px;
+    margin-left: 25px;
 }
 
 .logo {
@@ -104,6 +106,8 @@ header {
 
 section {
     margin: 0;
+    background-color: #F7F7D4;
+    color: #1B3409;
 }
 
 /*----------------------------------------------------------------------------*/
@@ -113,6 +117,7 @@ section {
 footer {
     margin: 0;
     background-color: #1B3409;
+    color: #F7F7D4;
 }
 
 /*----------------------------------------------------------------------------*/
