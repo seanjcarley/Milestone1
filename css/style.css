@@ -132,6 +132,7 @@ header {
     font-size: 15px;
 }
 
+
 /*----------------------------------------------------------------------------*/
 /* Section */
 /*----------------------------------------------------------------------------*/
@@ -140,8 +141,26 @@ section {
     margin: 0;
 }
 
+.main-section {
+    padding-left: 15px;
+}
+
 .origin {
     text-align: center;
+    padding-top: 15px;
+}
+
+.section-txt {
+    margin: 15px;
+}
+.section-txt a {
+    text-decoration: none;
+    color: #1B3409;
+    
+}
+
+.section-txt a:hover {
+    color: #C21460;
 }
 
 .question {
