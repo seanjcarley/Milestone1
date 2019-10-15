@@ -175,6 +175,49 @@ footer {
     margin: 0;
 }
 
+.copyrite {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.social {
+    text-align: center;
+}
+
+.social-icons li a i {
+    width: 45px;
+    height: 45px;
+    margin-top: 5px;
+    border-radius: 25%;
+    transition: all 0.35s ease-in-out;
+    background-color: #66B032;
+    color: #F7F7D4;
+    text-align: center;
+    line-height: 35px;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.social-icons li a i:hover {
+    background-color: #C21460;
+    color: #66B032;
+}
+
+.socialitem span {
+    display: block;
+    width: 100%;
+    font-size: 35px;
+}
+
+.bold {
+    font-weight: 600;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
 /*----------------------------------------------------------------------------*/
 /* Media Queries */
 /*----------------------------------------------------------------------------*/
