@@ -132,6 +132,12 @@ header {
     font-size: 15px;
 }
 
+.hvr-sweep-to-bottom:before,
+.hvr-sweep-to-top:before,
+.hvr-sweep-to-right:before {
+    background: rgba(0, 0, 0, 0.2);
+    height: 60px;
+}
 
 /*----------------------------------------------------------------------------*/
 /* Section */
@@ -139,6 +145,7 @@ header {
 
 section {
     margin: 0;
+    font-family: "Exo", sans-serif;
 }
 
 .main-section {
@@ -156,7 +163,6 @@ section {
 .section-txt a {
     text-decoration: none;
     color: #1B3409;
-    
 }
 
 .section-txt a:hover {
@@ -173,27 +179,36 @@ section {
 
 footer {
     margin: 0;
+    font-family: "Exo", sans-serif;
 }
 
 .copyrite {
     text-align: center;
     margin-top: 15px;
+    font-size: 100;
 }
 
 .social {
     text-align: center;
+    /*margin-top: 15px;*/
+}
+
+.social-icons li a {
+    
 }
 
 .social-icons li a i {
     width: 45px;
     height: 45px;
-    margin-top: 5px;
-    border-radius: 25%;
-    transition: all 0.35s ease-in-out;
+    padding: 6px 0;
+    /*margin-top: 5px;*/
+    border-radius: 50%;
+    font-size: 25px;
     background-color: #66B032;
     color: #F7F7D4;
     text-align: center;
     line-height: 35px;
+    transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
     -webkit-transition: all 0.35s ease-in-out;
     -o-transition: all 0.35s ease-in-out;
