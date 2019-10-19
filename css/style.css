@@ -160,6 +160,7 @@ section {
 .section-txt {
     margin: 15px;
 }
+
 .section-txt a {
     text-decoration: none;
     color: #1B3409;
@@ -195,12 +196,49 @@ section {
 button[type="submit"] {
     margin-top: 15px;
     margin-bottom: 20px;
-    color:  #F7F7D4;
+    color: #F7F7D4;
     background-color: #1B3409;
 }
 
+button[type="submit"]:hover {
+    color: #66B032;
+    background-color: #C21460;
+    font-weight: 300;
+     transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
 #name-field {
-    
+    background-color: #66B032;
+    color: #F7F7D4;
+}
+
+#email-field {
+    background-color: #66B032;
+    color: #F7F7D4;
+}
+
+/* Trying to overe ride the color of the placeholder text on the form */
+#email-field:after {
+    background-color: #66B032;
+    color: #66B032;
+}
+
+#phone-field {
+    background-color: #66B032;
+    color: #F7F7D4;
+}
+
+#desc-field {
+    background-color: #66B032;
+    color: #F7F7D4;
+}
+
+#budget-field {
+    background-color: #66B032;
+    color: #F7F7D4;
 }
 
 /*----------------------------------------------------------------------------*/
@@ -212,20 +250,49 @@ footer {
     font-family: "Exo", sans-serif;
 }
 
+.footer-text {
+    margin: 0;
+    padding-left: 30px;
+    padding-top: 0;
+}
+
+.footer-text a {
+    text-decoration: none;
+    color: #F7F7D4;
+}
+
+.footer-text a:hover {
+    color: #66B032;
+}
+
+.footer-h5 {
+    color: #66B032;
+    margin: 0;
+    padding-left: 15px;
+    padding-top: 15px;
+}
+
+.footer-address {
+    margin: 0;
+    padding-left: 30px;
+    padding-top: 0;
+    padding-bottom: 10px;
+}
+
 .copyrite {
     text-align: center;
-    margin-top: 15px;
+    margin-top: 45px;
     font-size: 100;
 }
 
 .social {
     text-align: center;
-    /*margin-top: 15px;*/
+    margin-top: 45px;
 }
 
-.social-icons li a {
+/*.social-icons li a {
     
-}
+}*/
 
 .social-icons li a i {
     width: 45px;
