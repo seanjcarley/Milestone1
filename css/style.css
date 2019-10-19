@@ -39,7 +39,6 @@
 
 body {
     margin: 0;
-    min-height: 100%;
 }
 
 /*----------------------------------------------------------------------------*/
@@ -123,7 +122,8 @@ header {
 .menuitem a i {
     padding-top: 15px;
     display: block;
-    color: #F7F7D4;;
+    color: #F7F7D4;
+    ;
     font-size: 20px;
 }
 
@@ -204,7 +204,7 @@ button[type="submit"]:hover {
     color: #66B032;
     background-color: #C21460;
     font-weight: 300;
-     transition: all 0.35s ease-in-out;
+    transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
     -webkit-transition: all 0.35s ease-in-out;
     -o-transition: all 0.35s ease-in-out;
@@ -220,11 +220,11 @@ button[type="submit"]:hover {
     color: #F7F7D4;
 }
 
-/* Trying to overe ride the color of the placeholder text on the form */
+/* Trying to overe ride the color of the placeholder text on the form
 #email-field:after {
     background-color: #66B032;
     color: #66B032;
-}
+}*/
 
 #phone-field {
     background-color: #66B032;
@@ -335,17 +335,25 @@ footer {
 /*----------------------------------------------------------------------------*/
 
 @media (max-width:767px) {
+    body {
+        min-width: 100%;
+    }
+
     .logo {
         display: none;
     }
-    
+
     .page-header {
-    margin-top: 15px;
-    margin-bottom: 10px;
-    color: #F7F7D4;
+        margin-top: 15px;
+        margin-bottom: 10px;
+        color: #F7F7D4;
     }
-    
+
     .desktop {
         display: none;
+    }
+    
+    .center-form {
+        max-width: 85%;
     }
 }
