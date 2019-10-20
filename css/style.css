@@ -39,6 +39,7 @@
 
 body {
     margin: 0;
+    font-family: "Exo", sans-serif;
 }
 
 /*----------------------------------------------------------------------------*/
@@ -47,13 +48,13 @@ body {
 
 header {
     margin: 20;
-    background-color: #fefe33;
+    background-color: #F7F7D4;
 }
 
-.cake-image {
+/*.cake-image {
     background: url("../images/980x1123Slider_0004_Slider_2_Left.jpg");
     background-size: cover;
-}
+}*/
 
 .page-header {
     margin-top: 15px;
@@ -61,7 +62,6 @@ header {
 }
 
 .name {
-    font-family: "Exo", sans-serif;
     font-weight: 400;
     font-size: 50px;
     margin-left: 25px;
@@ -69,7 +69,6 @@ header {
 }
 
 .tag-line {
-    font-family: "Exo", sans-serif;
     font-weight: 300;
     font-size: 30px;
     margin-left: 25px;
@@ -78,15 +77,23 @@ header {
 }
 
 .logo {
-    background: url("#");
-    background-position: center;
+    background: url("../images/slice.jpg");
+    background-position: top;
     background-repeat: no-repeat;
-    background-size: cover;
-    background-color: #1B3409;
-    font-family: "Roboto", sans-serif;
+    /*background-size: 75%;*/
+    /*background-color: #1B3409;*/
+    background-color: #fff;
     text-align: center;
-    padding-top: 25px;
+    padding-top: 190px;
     min-height: 240px;
+    text-decoration: none;
+    font-size: 45px;
+    font-weight: 500;
+    color: #C21460;
+}
+
+.logo:hover {
+    color: #C21460;
 }
 
 .list-inline-item:not(:last-child) {
@@ -123,7 +130,6 @@ header {
     padding-top: 15px;
     display: block;
     color: #F7F7D4;
-    ;
     font-size: 20px;
 }
 
@@ -145,7 +151,6 @@ header {
 
 section {
     margin: 0;
-    font-family: "Exo", sans-serif;
 }
 
 .main-section {
@@ -179,7 +184,6 @@ section {
 /*----------------------------------------------------------------------------*/
 
 .form-heading {
-    font-family: "Exo", sans-serif;
     font-weight: 500;
     margin-top: 25px;
     /*margin-bottom: ;*/
@@ -247,7 +251,6 @@ button[type="submit"]:hover {
 
 footer {
     margin: 0;
-    font-family: "Exo", sans-serif;
 }
 
 .footer-text {
@@ -337,6 +340,7 @@ footer {
 @media (max-width:767px) {
     body {
         min-width: 100%;
+        font-family: "Roboto", sans-serif;
     }
 
     .logo {
