@@ -25,6 +25,7 @@
 }
 
 .side-section {
+    padding-left: 15px;
     background-color: #66B032;
 }
 
@@ -51,10 +52,12 @@ header {
     background-color: #F7F7D4;
 }
 
-/*.cake-image {
+.cake-image {
     background: url("../images/980x1123Slider_0004_Slider_2_Left.jpg");
-    background-size: cover;
-}*/
+    background-size: 25%;
+    background-position: right;
+    background-repeat: no-repeat;
+}
 
 .page-header {
     margin-top: 15px;
@@ -62,14 +65,14 @@ header {
 }
 
 .name {
-    font-weight: 400;
+    font-weight: 500;
     font-size: 50px;
     margin-left: 25px;
     color: #C21460;
 }
 
 .tag-line {
-    font-weight: 300;
+    font-weight: 400;
     font-size: 30px;
     margin-left: 25px;
     color: #C21460;
@@ -81,18 +84,14 @@ header {
     background-position: top;
     background-repeat: no-repeat;
     /*background-size: 75%;*/
-    /*background-color: #1B3409;*/
-    background-color: #fff;
+    background-color: #1B3409;
+    /*background-color: #fff;*/
     text-align: center;
     padding-top: 190px;
     min-height: 240px;
     text-decoration: none;
     font-size: 45px;
     font-weight: 500;
-    color: #C21460;
-}
-
-.logo:hover {
     color: #C21460;
 }
 
@@ -177,6 +176,14 @@ section {
 
 .question {
     text-align: center;
+}
+
+.side-section {
+    
+}
+
+.side-section-menu {
+    color: #F7F7D4;
 }
 
 /*----------------------------------------------------------------------------*/
