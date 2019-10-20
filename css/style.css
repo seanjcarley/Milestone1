@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
 
 /*----------------------------------------------------------------------------*/
+
 /* Colours */
+
 /*----------------------------------------------------------------------------*/
 
 .menu-item-color-home {
@@ -35,7 +37,9 @@
 }
 
 /*----------------------------------------------------------------------------*/
+
 /* Body */
+
 /*----------------------------------------------------------------------------*/
 
 body {
@@ -44,7 +48,9 @@ body {
 }
 
 /*----------------------------------------------------------------------------*/
+
 /* Header */
+
 /*----------------------------------------------------------------------------*/
 
 header {
@@ -53,15 +59,18 @@ header {
 }
 
 .cake-image {
-    background: url("../images/980x1123Slider_0004_Slider_2_Left.jpg");
-    background-size: 25%;
-    background-position: right;
+    background: url("../images/banner.png");
+    background-position: center;
     background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
 }
 
 .page-header {
     margin-top: 15px;
-    margin-bottom: 35px;
+    margin-bottom: 17px;
 }
 
 .name {
@@ -71,23 +80,30 @@ header {
     color: #C21460;
 }
 
+.opaque-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
 .tag-line {
     font-weight: 400;
     font-size: 30px;
     margin-left: 25px;
     color: #C21460;
-    /*color: #66B032;*/
 }
 
 .logo {
-    background: url("../images/slice.jpg");
-    background-position: top;
+    /*background: url("../images/20170906215546_1200x1200.png");*/
+    background-position: center;
     background-repeat: no-repeat;
-    /*background-size: 75%;*/
+    background-size: cover;
     background-color: #1B3409;
     /*background-color: #fff;*/
     text-align: center;
-    padding-top: 190px;
     min-height: 240px;
     text-decoration: none;
     font-size: 45px;
@@ -101,6 +117,7 @@ header {
 
 .menucontainer {
     font-size: 0;
+    position: static;
 }
 
 #nav li {
@@ -145,7 +162,9 @@ header {
 }
 
 /*----------------------------------------------------------------------------*/
+
 /* Index Section */
+
 /*----------------------------------------------------------------------------*/
 
 section {
@@ -178,16 +197,16 @@ section {
     text-align: center;
 }
 
-.side-section {
-    
-}
+.side-section {}
 
 .side-section-menu {
     color: #F7F7D4;
 }
 
 /*----------------------------------------------------------------------------*/
+
 /* Contact Section */
+
 /*----------------------------------------------------------------------------*/
 
 .form-heading {
@@ -253,7 +272,9 @@ button[type="submit"]:hover {
 }
 
 /*----------------------------------------------------------------------------*/
+
 /* Footer */
+
 /*----------------------------------------------------------------------------*/
 
 footer {
@@ -341,7 +362,9 @@ footer {
 }
 
 /*----------------------------------------------------------------------------*/
+
 /* Media Queries */
+
 /*----------------------------------------------------------------------------*/
 
 @media (max-width:767px) {
@@ -363,7 +386,7 @@ footer {
     .desktop {
         display: none;
     }
-    
+
     .center-form {
         max-width: 85%;
     }
