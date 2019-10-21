@@ -5,8 +5,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" type="text/css" />
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js" integrity="sha384-xrRywqdh3PHs8keKZN+8zzc5TX0GRTLCcmivcbNJWm2rs5C8PRhcEn3czEjhAO9o" crossorigin="anonymous"></script>
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css" type="text/css">
     <link rel="stylesheet" href="css/style.css">
     <title>Jo's Bakery and Novelty Cakes</title>
@@ -40,50 +42,103 @@
     <section class="section-color">
         <div class="row">
             <div class="col-md-6 cake-types">
-                <h3>Types of Cake</h3>
-                <ul>
+                <h4 class="types-header">Types of Cake</h4>
+                <a href="#sponge" class="list-header mobile" data-toggle="modal">
+                    Sponge/Madeira
+                    <img src="images/sponge_maderia_cake.jpg" alt="Sponge-Cake" class="rounded-circle mr-3 mobile" height=100 width=100>
+                </a>
+                <a href="#boiled" class="list-header mobile" data-toggle="modal">
+                    Boiled Chocolate Cake
+                    <img src="images/boiled_choc_cake.jpg" alt="Boiled-Choc-Cake" class="rounded-circle mr-3 mobile" height=100 width=100>
+                </a>
+                <a href="#boiled" class="list-header mobile" data-toggle="modal">
+                    Chocolate Biscuit Cake
+                    <img src="images/Choc_biscuit_cake.jpg" alt="Choc-Biscuit-Cake" class="rounded-circle mr-3 mobile" height=100 width=100>
+                </a>
+                <ul class="outer-list">
                     <li>
-                        <h4>Sponge</h4>
-                        The clasic sponge recepie
+                        <div class="row list-row">
+                            <div class="col-sm-6">
+                                <a href="#sponge" class="list-header desktop" data-toggle="modal">Sponge/Madeira Ingredients</a>
+                                <!--<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#sponge">Sponge/Madeira Ingredients</button>-->
+                                <ul class="desktop">
+                                    <li>Self-raising Flour</li>
+                                    <li>Butter</li>
+                                    <li>Caster Suger</li>
+                                    <li>Eggs</li>
+                                    <li>Baking Powder</li>
+                                </ul>
+                            </div>
+                            <div class="col-sm-6 type-image">
+                                <img src="images/sponge_maderia_cake.jpg" alt="Sponge-Cake" class="rounded-circle mr-3 desktop" height=100 width=100>
+                            </div>
+                        </div>
                     </li>
                     <li>
-                        <h4>Madeira</h4>
-                        Denser Sponge
+                        <div class="row list-row">
+                            <div class="col-sm-6">
+                                <a href="#boiled" class="list-header desktop" data-toggle="modal">Boiled Chocolate Cake Ingredients</a>
+                                <!--<button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#boiled">Boiled Chocolate Cake Ingredients</button>-->
+                                <ul class="desktop">
+                                    <li>Water</li>
+                                    <li>Sugar</li>
+                                    <li>Bicarbonate of Soda</li>
+                                    <li>Cocoa</li>
+                                    <li>Butter</li>
+                                    <li>Eggs</li>
+                                    <li>Self-raising Flour</li>
+                                </ul>
+                            </div>
+                            <div class="col-sm-6 type-image">
+                                <img src="images/boiled_choc_cake.jpg" alt="Boiled-Choc-Cake" class="rounded-circle mr-3 desktop" height=100 width=100>
+                            </div>
+                        </div>
                     </li>
                     <li>
-                        <h4>Boiled Chocolate Cake</h4>
-                        Moist Chocolate sponge
-                    </li>
-                    <li>
-                        <h4>Chocolate Biscuit Cake</h4>
-                        Chocolate and Biscuits
+                        <div class="row list-row">
+                            <div class="col-sm-6">
+                                <a href="#biscuit" class="list-header desktop" data-toggle="modal">Chocolate Biscuit Cake Ingridents</a>
+                                <!--<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#biscuit">Chocolate Biscuit Cake Ingridents</button>-->
+                                <ul class="desktop">
+                                    <li>Butter</li>
+                                    <li>Chocolate</li>
+                                    <li>Digestive Biscuits</li>
+                                    <li>Rich Tea Biscuits</li>
+                                    <li>Golden Syrup</li>
+                                    <li>Optional: Fruit/Nuts/Malteasers</li>
+                                </ul>
+                            </div>
+                            <div class="col-sm-6 type-image">
+                                <img src="images/Choc_biscuit_cake.jpg" alt="Choc-Biscuit-Cake" class="rounded-circle mr-3 desktop" height=100 width=100>
+                            </div>
+                        </div>
                     </li>
                 </ul>
-            </div>
-            <div class="col-md-6">
-                <div class="row">
-                    <div class="col">Images</div>
+                </div>
+                <div class="col-md-6">
+                    <div class="row">
+                        <div class="col">Images</div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">Col-1</div>
+                        <div class="col-md-6">Col-2</div>
+                    </div>
+                </div>
                 </div>
                 <div class="row">
-                    <div class="col-md-6">Col-1</div>
-                    <div class="col-md-6">Col-2</div>
+                    <div class="col">Testimonials</div>
                 </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col">Testimonials</div>
-        </div>
-        <div class="row">
-            <div class="col-md-4">
-                John Doe 1
-            </div>
-            <div class="col-md-4">
-                Jane Doe 1
-            </div>
-            <div class="col-md-4">
-                John Doe 2
-            </div>
-        </div>
+                <div class="row">
+                    <div class="col-md-4">
+                        John Doe 1
+                    </div>
+                    <div class="col-md-4">
+                        Jane Doe 1
+                    </div>
+                    <div class="col-md-4">
+                        John Doe 2
+                    </div>
+                </div>
     </section>
     <footer class="footer-color">
         <div class="row">
@@ -149,6 +204,74 @@
             </div>
         </div>
     </footer>
+    <div class="modal" tabindex="-1" role="dialog" id="sponge">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Sponge/Madeira</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <ol>
+                        <li>Preheat the oven to 180 degrees C / gas mark 4.</li>
+                        <li>Measure all the ingredients into a large bowl.</li>
+                        <li>Mix all of the ingredients using a electric whisk.</li>
+                        <li>Pour the mixture into 2 non-stick 7 inch (18cm) tins.</li>
+                        <li>Place them in the oven till golden brown 15-25 minutes.</li>
+                        <li>Cool on a wire rack before serving.</li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal" tabindex="-1" role="dialog" id="boiled">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Boiled Chocolate Cake</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <ol>
+                        <li>Place first five ingredients into a large saucepan.</li>
+                        <li>Bring to the boil and simmer for 3 minutes.</li>
+                        <li>Allow to cool slightly.</li>
+                        <li>Add eggs and flour, and stir well.</li>
+                        <li>Pour into a greased 20 cm cake pan.</li>
+                        <li>Bake at 180C for 50 minutes.</li>
+                        <li>Ice when cool if desired.</li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal bd-example-modal-sm" tabindex="-1" role="dialog" id="biscuit">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Chocolate Biscuit Cake</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <ol>
+                        <li>Line a 15cms/6" round cake tin or a 2lb loaf tin with a double layer of greaseproof paper.</li>
+                        <li>Melt the butter, syrup and chocolate in a pan over a low heat. Stir to make sure all the ingredients are well mixed together.</li>
+                        <li>Add the biscuits, maltesers and fruit and nuts, if used. Stir well.</li>
+                        <li>Transfer to prepared tin. Level it on top and press down well to avoid air gaps. Allow to get cold and hard. Wrap completely in greaseproof paper and store in a fridge.</li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </body>
 
 </html>
