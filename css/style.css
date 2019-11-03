@@ -206,6 +206,7 @@ section {
 
 .types-header {
     padding-top: 15px;
+    padding-left: 15px;
     text-transform: uppercase;
     text-align: center;
 }
@@ -238,11 +239,20 @@ section {
 
 .type-image {
     padding-top: 35px;
+    padding-left: 55px;
 }
 
+.mobile-modal,
 .mobile {
     display: none;
-}    
+}
+
+.modal-content {
+    color: #66B032;
+    background-color: #1B3409;
+    margin: 0 auto;
+    
+}
 
 /*----------------------------------------------------------------------------*/
 /* Contact Section */
@@ -437,10 +447,13 @@ footer {
         text-align: center;
     }
     
-    .modal-open .modal {
+    .modal-open{
         width: 50%;
     }
-
+    
+    .mobile-modal {
+        display: block;
+    }
 }
 
 @media (min-width: 769px) and (max-width: 992px){
