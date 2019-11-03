@@ -395,7 +395,7 @@ footer {
 /* Media Queries */
 /*----------------------------------------------------------------------------*/
 
-@media (max-width:768px) {
+@media (max-width:576px) {
     body {
         font-family: "Roboto", sans-serif;
         width: 100%;
@@ -425,10 +425,6 @@ footer {
         color: #C21460;
     }
     
-    .mobile-modal {
-        width: 90%;
-    }
-    
     .copyrite {
         margin-top: 15px;
         margin-bottom: 15px;
@@ -440,10 +436,14 @@ footer {
     .footer-text {
         text-align: center;
     }
+    
+    .modal-open .modal {
+        width: 50%;
+    }
 
 }
 
-@media (min-width: 768px) and (max-width: 992px){
+@media (min-width: 769px) and (max-width: 992px){
     body {
         font-family: "Roboto", sans-serif;
         width: 100%;
