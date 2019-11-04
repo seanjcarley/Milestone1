@@ -249,7 +249,10 @@ section {
     color: #66B032;
     background-color: #1B3409;
     margin: 0 auto;
-    
+}
+
+.testimonial {
+    padding-left: 20px;
 }
 
 /*----------------------------------------------------------------------------*/
