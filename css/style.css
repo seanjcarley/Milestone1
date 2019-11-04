@@ -206,7 +206,6 @@ section {
 
 .types-header {
     padding-top: 15px;
-    padding-left: 15px;
     text-transform: uppercase;
     text-align: center;
 }
@@ -239,7 +238,6 @@ section {
 
 .type-image {
     padding-top: 35px;
-    padding-left: 55px;
 }
 
 .mobile-modal,
