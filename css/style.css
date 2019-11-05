@@ -43,6 +43,10 @@ body {
     font-family: "Exo", sans-serif;
 }
 
+.row {
+    margin: 0;
+}
+
 .container-fluid {
     padding: 0;
 }
@@ -224,8 +228,8 @@ section {
 }
 
 .cakes-prev {
-    padding-top: 35px;
-    padding-bottom: 35px;
+    padding-top: 25px;
+    /* padding-bottom: 35px; */
 }
 
 .outer-list {
@@ -237,7 +241,7 @@ section {
 }
 
 .type-image {
-    padding-top: 35px;
+    padding-top: 15px;
 }
 
 .mobile-modal,
@@ -253,6 +257,24 @@ section {
 
 .testimonial {
     padding-left: 20px;
+    background-color: #C21460;
+    color: #F7F7D4;
+}
+
+.prev-cake-header {
+    text-transform: uppercase;
+    text-align: center;
+    padding-bottom: 2px;
+    font-weight: 500;
+}
+
+.prev-cake-body {
+    padding-bottom: 0;
+    text-align: center;
+}
+
+.prev-cake-img {
+    text-align: center;
 }
 
 /*----------------------------------------------------------------------------*/
@@ -406,10 +428,14 @@ footer {
 /* Media Queries */
 /*----------------------------------------------------------------------------*/
 
-@media (max-width:576px) {
+@media (max-width:767px) {
     body {
         font-family: "Roboto", sans-serif;
         width: 100%;
+    }
+    
+    .row {
+        margin: 0;
     }
 
     .logo {
