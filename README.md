@@ -1,4 +1,9 @@
-# Milestone 1
+# Milestone 1 Poject of Seán Carley
+
+## Technologies
+1. HTML
+2. CSS
+3. Bootstrap
 
 ## Initial Ideas
 - C.V.
@@ -41,7 +46,9 @@
     - Submit (cta)
     - Budget (optional)
 
-
+## Deployed Site
+This site is deployed via GitHub Pages at the following link:
+https://seanjcarley.github.io/Milestone1/
 
 ### Colour Scheme
 - the colour scheme was devised using the Triadic Color Schemes page on W3Schools.
@@ -49,4 +56,15 @@
 
 ### Modals
 - information on modals was obtained from the Bootstrat Modal web page
-    - https://www.w3schools.com/colors/colors_triadic.asp 
+    - https://www.w3schools.com/colors/colors_triadic.asp
+
+## Images/Photos
+- boiled_choc_cake.jpg sourced at the following website:
+    <br/>https://addapinch.com/the-best-chocolate-cake-recipe-ever/
+- Choc_biscuit_cake.jpg sourced at the following website:
+    <br/>https://www.odlums.ie/recipes/chocolate-biscuit-cake/
+- sponge_maderia_cake.jpg sourced at the following website:
+    <br/>http://allrecipes.co.uk/recipe/12122/basic-plain-sponge-cake.aspx
+- banner.png sourced at the following website:
+    <br/>https://emzcakes.myshopify.com/products/wedding-cupcake-tower
+- All other images are personal ones
