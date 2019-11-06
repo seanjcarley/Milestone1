@@ -201,7 +201,9 @@ section {
 }
 
 .side-section-menu {
+    padding-top: 15px;
     color: #F7F7D4;
+    text-align: center;
 }
 
 /*----------------------------------------------------------------------------*/
@@ -220,7 +222,8 @@ section {
 
 .cake-types a {
     text-decoration: none;
-    color: #1B3409;
+    color: #F7F7D4;
+    text-align: center;
 }
 
 .cake-types a:hover {
@@ -241,7 +244,7 @@ section {
 }
 
 .type-image {
-    padding-top: 15px;
+    padding-top: 25px;
 }
 
 .mobile-modal,
@@ -431,16 +434,12 @@ footer {
 @media (max-width:767px) {
     body {
         font-family: "Roboto", sans-serif;
-        width: 100%;
-    }
-    
-    .row {
-        margin: 0;
+        /* width: 100%; */
     }
 
-    .logo {
+    /* .logo {
         display: none;
-    }
+    } */
 
     .page-header {
         margin-top: 15px;
