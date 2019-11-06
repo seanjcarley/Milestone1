@@ -48,6 +48,7 @@ body {
 }
 
 .container-fluid {
+    margin: 0;
     padding: 0;
 }
 
@@ -97,24 +98,6 @@ header {
     margin-left: 25px;
     color: #66B032;
 }
-
-/* 
------No Longer used-----
-.logo {
-    background: url("../images/20170906215546_1200x1200.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-color: #1B3409;
-    background-color: #fff;
-    text-align: center;
-    min-height: 240px;
-    text-decoration: none;
-    font-size: 45px;
-    font-weight: 500;
-    color: #C21460;
-}
-*/
 
 .list-inline-item:not(:last-child) {
     margin-right: 0;
@@ -434,12 +417,7 @@ footer {
 @media (max-width:767px) {
     body {
         font-family: "Roboto", sans-serif;
-        /* width: 100%; */
     }
-
-    /* .logo {
-        display: none;
-    } */
 
     .page-header {
         margin-top: 15px;
