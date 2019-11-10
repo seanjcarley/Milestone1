@@ -32,21 +32,18 @@
 .footer-color {
     background-color: #1B3409;
     color: #F7F7D4;
-    /*position: absolute;
-    bottom: 0;
-    width: 100%;*/
 }
 
 /*----------------------------------------------------------------------------*/
 /* Body */
 /*----------------------------------------------------------------------------*/
 
-html,
 body {
     padding: 0;
     margin: 0;
     font-family: "Exo", sans-serif;
-    min-height: 100%;
+    min-height: 100vh;
+    background-color: #F7F7D4;
 }
 
 .row {
@@ -207,6 +204,7 @@ section {
 
 .list-header {
     font-weight: 700;
+    text-align: center;
 }
 
 .cake-types a {
@@ -251,6 +249,7 @@ section {
     padding-left: 20px;
     background-color: #C21460;
     color: #F7F7D4;
+    text-align: center;
 }
 
 .prev-cake-header {
@@ -261,7 +260,7 @@ section {
 }
 
 .prev-cake-body {
-    padding-bottom: 0;
+    padding-bottom: 15px;
     text-align: center;
 }
 
@@ -325,6 +324,14 @@ button[type="submit"]:hover {
 
 footer {
     margin: 0;
+    overflow: hidden;
+}
+
+.footer-contact-us {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 100%;
 }
 
 .footer-text {
@@ -411,7 +418,7 @@ footer {
 /* Media Queries */
 /*----------------------------------------------------------------------------*/
 
-@media (max-width:767px) {
+@media (max-width:992px) {
     body {
         font-family: "Roboto", sans-serif;
     }
@@ -440,6 +447,10 @@ footer {
         color: #C21460;
     }
     
+    .mob-type-img {
+        text-align-last: center;
+    }
+    
     .copyrite {
         margin-top: 15px;
         margin-bottom: 15px;
@@ -459,11 +470,24 @@ footer {
     .mobile-modal {
         display: block;
     }
-}
-
-@media (min-width: 769px) and (max-width: 992px){
-    body {
-        font-family: "Roboto", sans-serif;
-        width: 100%;
+    
+    .side-section {
+        background-color: #F7F7D4;
+        color: #1B3409;
     }
+    
+    .cake-images {
+        background-color: #66B032;
+        color: #F7F7D4;
+    }
+    
+    a.list-header {
+        color: #1B3409;
+    }
+    
+    .footer-contact-us {
+        margin: 0;
+        overflow: hidden;
+        position: static;
+    } 
 }

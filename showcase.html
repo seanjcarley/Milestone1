@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0 maximum-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
@@ -49,27 +49,16 @@
 
     <section class="section-color">
         <div class="row">
+            <!-- Side Section -->
             <div class="col-md-4 cake-types side-section">
                 <h4 class="types-header">Types of Cake</h4>
-                <a href="#sponge" class="list-header mobile" data-toggle="modal">
-                    Sponge/Madeira
-                    <img src="images/sponge_maderia_cake.jpg" alt="Sponge-Cake" class="rounded-circle mr-3 mobile" height=100 width=100>
-                </a>
-                <a href="#boiled" class="list-header mobile" data-toggle="modal">
-                    Boiled Chocolate Cake
-                    <img src="images/boiled_choc_cake.jpg" alt="Boiled-Choc-Cake" class="rounded-circle mr-3 mobile" height=100 width=100>
-                </a>
-                <a href="#biscuit" class="list-header mobile" data-toggle="modal">
-                    Chocolate Biscuit Cake
-                    <img src="images/Choc_biscuit_cake.jpg" alt="Choc-Biscuit-Cake" class="rounded-circle mr-3 mobile" height=100 width=100>
-                </a>
-                <ul class="outer-list">
+                <ul class="outer-list desktop">
                     <li>
-                        <div class="row list-row desktop">
+                        <div class="row list-row">
                             <div class="col-sm-6">
                                 <a href="#sponge" class="list-header" data-toggle="modal">Sponge/Madeira Ingredients</a>
                                 <!--<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#sponge">Sponge/Madeira Ingredients</button>-->
-                                <ul class="desktop">
+                                <ul>
                                     <li>Self-raising Flour</li>
                                     <li>Butter</li>
                                     <li>Caster Suger</li>
@@ -78,16 +67,16 @@
                                 </ul>
                             </div>
                             <div class="col-sm-6 type-image">
-                                <img src="images/sponge_maderia_cake.jpg" alt="Sponge-Cake" class="rounded-circle mr-3 desktop" height=175 width=175>
+                                <img src="images/sponge_maderia_cake.jpg" alt="Sponge-Cake" class="rounded-circle mr-3" height=150 width=150>
                             </div>
                         </div>
                     </li>
                     <li>
-                        <div class="row list-row desktop">
+                        <div class="row list-row">
                             <div class="col-sm-6">
                                 <a href="#boiled" class="list-header" data-toggle="modal">Boiled Chocolate Cake Ingredients</a>
                                 <!--<button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#boiled">Boiled Chocolate Cake Ingredients</button>-->
-                                <ul class="desktop">
+                                <ul>
                                     <li>Water</li>
                                     <li>Sugar</li>
                                     <li>Bicarbonate of Soda</li>
@@ -98,16 +87,16 @@
                                 </ul>
                             </div>
                             <div class="col-sm-6 type-image">
-                                <img src="images/boiled_choc_cake.jpg" alt="Boiled-Choc-Cake" class="rounded-circle mr-3 desktop" height=175 width=175>
+                                <img src="images/boiled_choc_cake.jpg" alt="Boiled-Choc-Cake" class="rounded-circle mr-3" height=150 width=150>
                             </div>
                         </div>
                     </li>
                     <li>
-                        <div class="row list-row desktop">
+                        <div class="row list-row">
                             <div class="col-sm-6">
                                 <a href="#biscuit" class="list-header" data-toggle="modal">Chocolate Biscuit Cake Ingridents</a>
                                 <!--<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#biscuit">Chocolate Biscuit Cake Ingridents</button>-->
-                                <ul class="desktop">
+                                <ul>
                                     <li>Butter</li>
                                     <li>Chocolate</li>
                                     <li>Digestive Biscuits</li>
@@ -117,12 +106,22 @@
                                 </ul>
                             </div>
                             <div class="col-sm-6 type-image">
-                                <img src="images/Choc_biscuit_cake.jpg" alt="Choc-Biscuit-Cake" class="rounded-circle mr-3 desktop" height=175 width=175>
+                                <img src="images/Choc_biscuit_cake.jpg" alt="Choc-Biscuit-Cake" class="rounded-circle mr-3 mob-type-img " height=150 width=150>
                             </div>
                         </div>
                     </li>
                 </ul>
+                <ul class="outer-list mobile">
+                    <li><a href="#sponge" class="list-header" data-toggle="modal">Sponge/Madeira Ingredients</a></li>
+                    <li><img src="images/sponge_maderia_cake.jpg" alt="Sponge-Cake" class="rounded-circle mr-3" height=175 width=175></li>
+                    <li><a href="#boiled" class="list-header" data-toggle="modal">Boiled Chocolate Cake Ingredients</a></li>
+                    <li><img src="images/boiled_choc_cake.jpg" alt="Boiled-Choc-Cake" class="rounded-circle mr-3" height=175 width=175></li>
+                    <li><a href="#biscuit" class="list-header" data-toggle="modal">Chocolate Biscuit Cake Ingridents</a></li>
+                    <li><img src="images/Choc_biscuit_cake.jpg" alt="Choc-Biscuit-Cake" class="rounded-circle mr-3 mob-type-img " height=175 width=175></li>
+                </ul>
             </div>
+            <!-- /Side Section -->
+            <!-- Main Section -->
             <div class="col-md-8 cake-images">
                 <div class="row">
                     <div class="col">
@@ -186,9 +185,13 @@
                     </div>
                 </div>
             </div>
+            <!-- /Main Section -->
         </div>
-        <div class="row testimonial types-header">
-            <div class="col type-header">Testimonials</div>
+        <!-- Testimonial Section -->
+        <div class="row testimonial">
+            <div class="col">
+                <h4 class="types-header">Testimonials</h4>
+            </div>
         </div>
         <div class="row testimonial">
             <div class="col-md-4 prev-cake-body">
