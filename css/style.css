@@ -32,15 +32,21 @@
 .footer-color {
     background-color: #1B3409;
     color: #F7F7D4;
+    /*position: absolute;
+    bottom: 0;
+    width: 100%;*/
 }
 
 /*----------------------------------------------------------------------------*/
 /* Body */
 /*----------------------------------------------------------------------------*/
 
+html,
 body {
+    padding: 0;
     margin: 0;
     font-family: "Exo", sans-serif;
+    min-height: 100%;
 }
 
 .row {
@@ -297,29 +303,20 @@ button[type="submit"]:hover {
     -o-transition: all 0.35s ease-in-out;
 }
 
-#name-field {
+::placeholder {
     background-color: #66B032;
-    color: #F7F7D4;
+    color: #F7F7D4 !important;
+    font-weight: 100;
 }
 
-#email-field {
-    background-color: #66B032;
-    color: #F7F7D4;
-}
-
-#phone-field {
-    background-color: #66B032;
-    color: #F7F7D4;
-}
-
-#desc-field {
-    background-color: #66B032;
-    color: #F7F7D4;
-}
-
+#name-field,
+#email-field,
+#phone-field,
+#desc-field,
 #budget-field {
     background-color: #66B032;
-    color: #F7F7D4;
+    color: #1B3409;
+    font-weight: 500;
 }
 
 /*----------------------------------------------------------------------------*/
@@ -417,6 +414,10 @@ footer {
 @media (max-width:767px) {
     body {
         font-family: "Roboto", sans-serif;
+    }
+    
+    .row {
+        margin: 0;
     }
 
     .page-header {
